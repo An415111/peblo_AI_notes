@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API = "https://peblo-ai-notes-8ee0.onrender.com";
+const API =
+  "https://peblo-ai-notes-8ee0.onrender.com/api";
 
 // CREATE NOTE
 export const createNote = async (
@@ -21,7 +22,9 @@ export const createNote = async (
 };
 
 // GET NOTES
-export const getNotes = async (token) => {
+export const getNotes = async (
+  token
+) => {
   const response = await axios.get(
     `${API}/notes`,
     {
