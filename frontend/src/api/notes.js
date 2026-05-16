@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api";
+const API = "https://peblo-ai-notes-8ee0.onrender.com";
 
 // CREATE NOTE
 export const createNote = async (
